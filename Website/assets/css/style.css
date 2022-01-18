@@ -1,0 +1,63 @@
+body{
+	font-family: abadi,Helvetica,Arial,sans-serif;
+}
+
+.logo {
+	font-size: 2.8rem;
+}
+
+
+.sidenav {
+	height: 100%;
+	overflow-x: hidden;
+	padding-top: 20px;
+	background-image: url('../../assets/img/background.png');
+	background-color: #e2e2e2;
+	background-size: cover;
+}
+
+.main {
+	padding: 0px 10px;
+	background-color: #e2e2e2;
+}
+.login-card{
+	margin-top: 10%;
+}
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.login-card {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 924px) {
+	.login-card {
+		width: 145px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body{
+		background-color: #e2e2e2;
+	}
+	.main {
+		margin-left: 40%;
+		margin-top: 10%;
+		background-color: #e2e2e2;
+	}
+	.sidenav {
+		width: 40%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	}
+	.login-card {
+		margin-top: 30%;
+	}
+}
